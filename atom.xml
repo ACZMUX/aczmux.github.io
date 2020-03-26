@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hxza3t.coding-pages.com</id>
     <title>StudyPony&apos;s Blog</title>
-    <updated>2020-03-26T09:59:53.255Z</updated>
+    <updated>2020-03-26T10:04:41.569Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hxza3t.coding-pages.com"/>
     <link rel="self" href="https://hxza3t.coding-pages.com/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://hxza3t.coding-pages.com/images/avatar.png</logo>
     <icon>https://hxza3t.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, StudyPony&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Blog On Coding Pages]]></title>
+        <id>https://hxza3t.coding-pages.com/D6frjbF68/</id>
+        <link href="https://hxza3t.coding-pages.com/D6frjbF68/">
+        </link>
+        <updated>2020-03-26T09:59:55.000Z</updated>
+        <content type="html"><![CDATA[<p>整了半天 Coding 的 静态页面 终于整好了<br>
+这个东西以前应该叫Coding Pages吧<br>
+然后到处跳转都是404给我整蒙了<br>
+后来才看见官方的文档：<a href="https://help.coding.net/docs/devops/cd/static-website.html">如何搭建静态网站？- CODING帮助中心</a><br>
+然后发现我创建的项目里根本没有该文档中所说的【构建与部署】这一项，无意中看见示例项目中有，就翻了一遍设置找到了。<br>
+实名认证的话只要提供真实姓名+身份证号，然后验证一下绑定的手机号就行了。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://hxza3t.coding-pages.com/hello-gridea/</id>
