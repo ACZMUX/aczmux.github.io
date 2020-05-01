@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hxza3t.coding-pages.com</id>
     <title>StudyPony&apos;s Blog</title>
-    <updated>2020-04-10T02:19:29.875Z</updated>
+    <updated>2020-05-01T13:59:11.444Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hxza3t.coding-pages.com"/>
     <link rel="self" href="https://hxza3t.coding-pages.com/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://hxza3t.coding-pages.com/images/avatar.png</logo>
     <icon>https://hxza3t.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, StudyPony&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[水博客警告]]></title>
+        <id>https://hxza3t.coding-pages.com/d1hb5PP0H/</id>
+        <link href="https://hxza3t.coding-pages.com/d1hb5PP0H/">
+        </link>
+        <updated>2020-05-01T13:58:38.000Z</updated>
+        <content type="html"><![CDATA[<p>想着没什么好写，之后的博客要开始水了<img src="https://hxza3t.coding-pages.com/post-images/1588341546581.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[博客成功迁移]]></title>
         <id>https://hxza3t.coding-pages.com/s82-kTUwS/</id>
