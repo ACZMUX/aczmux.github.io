@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hxza3t.coding-pages.com</id>
     <title>StudyPony&apos;s Blog</title>
-    <updated>2020-05-01T14:01:49.903Z</updated>
+    <updated>2020-05-03T08:49:39.225Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hxza3t.coding-pages.com"/>
     <link rel="self" href="https://hxza3t.coding-pages.com/atom.xml"/>
@@ -10,6 +10,37 @@
     <logo>https://hxza3t.coding-pages.com/images/avatar.png</logo>
     <icon>https://hxza3t.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, StudyPony&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[友情链接]]></title>
+        <id>https://hxza3t.coding-pages.com/kZTxjgj2Z/</id>
+        <link href="https://hxza3t.coding-pages.com/kZTxjgj2Z/">
+        </link>
+        <updated>2020-05-03T08:38:38.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://wjy.me/">Dreamy.WJY's Blog - https://wjy.me/</a></p>
+<p>欢迎交换~</p>
+<p>哦 不 我的天 改天还是换个主题吧 这个主题对我太不友好了 不仅没有封面图的文章看起来丑 而且菜单也默认不显示</p>
+<p>建议评论格式：<br>
+“<br>
+博客名称：StudyPony's Blog<br>
+博客地址：<br>
+”</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[友情链接]]></title>
+        <id>https://hxza3t.coding-pages.com/lnk/</id>
+        <link href="https://hxza3t.coding-pages.com/lnk/">
+        </link>
+        <updated>2020-05-03T08:38:38.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://wjy.me/">Dreamy.WJY's Blog - https://wjy.me/</a></p>
+<p>欢迎交换~</p>
+<p>建议评论格式：<br>
+“<br>
+博客名称：StudyPony's Blog<br>
+博客地址：<br>
+”</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[水博客警告]]></title>
         <id>https://hxza3t.coding-pages.com/d1hb5PP0H/</id>
