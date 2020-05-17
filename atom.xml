@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aczmux.github.io</id>
     <title>妮阿米娅的博客</title>
-    <updated>2020-05-17T08:00:19.560Z</updated>
+    <updated>2020-05-17T09:40:00.516Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aczmux.github.io"/>
     <link rel="self" href="https://aczmux.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://aczmux.github.io/images/avatar.png</logo>
     <icon>https://aczmux.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 妮阿米娅的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[HoneyView 5.32 - 我在用的图片浏览器]]></title>
+        <id>https://aczmux.github.io/shwmOM__w/</id>
+        <link href="https://aczmux.github.io/shwmOM__w/">
+        </link>
+        <updated>2020-05-17T08:46:14.000Z</updated>
+        <content type="html"><![CDATA[<p>这篇文章让我结识了这款软件：<a href="https://zhuanlan.zhihu.com/p/36607280">Honeyview - 免费好用的图片浏览器</a><br>
+它的官网地址：<a href="http://www.bandisoft.com/honeyview/">Honeyview · 免费的图像查看器 · 下载 和 功能说明</a><br>
+是的，它是由Bandizip的开发商Bandisoft开发的。<br>
+支持RAW格式，支持PSD（Photoshop专属）格式，支持一大票主流格式，无广告捆绑，有32位便携版，你还需要什么？<br>
+右键菜单的“用 蜂蜜浏览器 转换”省得我打开画图或者其它东西去另存为，右键菜单的“用 蜂蜜浏览器 浏览”提供了预览图让我在列表显示的文件中大致知道这张图片是什么东西，比BandiZip的预览更实用。<br>
+赶紧把你的流氓广告捆绑看图软件（美图看看/2345看图王/光影看看）和日渐臃肿的ACDSee卸载了吧！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[骡 | Luo - 主题测试用文章]]></title>
         <id>https://aczmux.github.io/07raxVtM2/</id>
