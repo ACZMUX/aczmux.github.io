@@ -9,12 +9,12 @@
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
-    <link rel="stylesheet" href="/media/css/tags.css">
+    <link rel="stylesheet" href="/media/css/post.css">
     <link rel="stylesheet" href="/media/live2d/css/live2d.css" />
     
 </head>
 <body class=" mdui-appbar-with-toolbar  mdui-theme-primary-pink mdui-theme-accent-pink">
-        <header class="mdui-toolbar mdui-color-pink mdui-appbar-fixed mdui-appbar-scroll-toolbar-hide" style="z-index: 1000">
+<header class="mdui-toolbar mdui-color-pink mdui-appbar-fixed mdui-appbar-scroll-toolbar-hide" style="z-index: 1000">
     <a href="javascript:;" mdui-drawer="{target: '#left-drawer',overlay:true}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
     <span class="mdui-typo-title">妮阿米娅的博客</span>
     <div class="mdui-toolbar-spacer"></div>
@@ -22,7 +22,7 @@
     <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
 </header>
 
-        <div class="mdui-drawer mdui-color-white mdui-drawer-full-height mdui-drawer-close" id="left-drawer">
+<div class="mdui-drawer mdui-color-white mdui-drawer-full-height mdui-drawer-close" id="left-drawer">
     <ul class="mdui-list">
         <li class="mdui-subheader">菜单</li>
         
@@ -45,28 +45,45 @@
     </ul>
 </div>
 
-        <br>
-        <div class="mdui-container">
-            <div class="mdui-row mdui-row-gapless">
-                <div class="k-container">
-                    <div class="mdui-row">
-                        
-                        <div class="mdui-col mdui-p-a-1">
-                            <article class="archives-list mdui-shadow-15  mdui-hoverable mdui-color-white ">
-                                <a href="https://aczmux.github.io/zXI5KIXER/">
-                                    <div class="mdui-p-a-2">
-                                        <div class="mdui-typo-headline mdui-text-truncate index-list-title mdui-m-b-3 mdui-text-color-theme">原创</div>
-                                        <div class="mdui-typo-title mdui-m-t-1 mdui-text-color-blue-grey-200">共有1篇文章</div>
-                                    </div>
-                                </a>
-                            </article>
-                        </div>
-                        
-                    </div>
+<div id="content" class="site-content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            <article id="post-1270" class="post-1270 post type-post status-publish format-standard hentry category-90 category-129 tag-149">
+                <header class="entry-header">
+                    <h1 class="entry-title">Bandicam v4.x KeyGen</h1>
+                    <p class="entry-census">发布于 2020-05-23</p>
+                    <hr>
+                </header>
+                <div class="neko">
+                    <p><img src="https://aczmux.github.io/post-images/1590218791836.png" alt="" loading="lazy"><br>
+<img src="https://aczmux.github.io/post-images/1590218796393.png" alt="" loading="lazy"><br>
+<img src="https://aczmux.github.io/post-images/1590218809032.png" alt="" loading="lazy"><br>
+亲测最新版有效。有时激活失效需重新激活。管理员身份运行，随便输入点内容（不是邮箱也可以），点击Register application!按钮，结束了。<br>
+<a href="https://habo.qq.com/file/showdetail?pk=ADcGZV1qB2AIPFs6U2U%3D">腾讯哈珀分析系统</a><br>
+<a href="https://niamia.lanzous.com/icxc1sb">下载 - 蓝奏云</a><br>
+<a href="http://www.lanzou.com/account.php?action=register&amp;WShWPQM1DD0POFI3DmxRO1U3UGI=">蓝奏云 - 外链不限速免客户端下载，永不过期，不限容量，免费用户单个文件限制100M</a></p>
+
                 </div>
+            </article>
+        </main>
+    </div>
+    <div class="doc-footer-nav mdui-color-theme">
+        <div class="mdui-container">
+            <div class="mdui-row">
+                
+                <div class="mdui-col-xs-2 mdui-col-sm-6 doc-footer-nav-left"></div>
+                
+                
+                <div class="mdui-col-xs-2 mdui-col-sm-6 doc-footer-nav-left"></div>
+                
             </div>
         </div>
-        <footer class="mdui-container footer ">
+    </div>
+    <br>
+    
+    <div class="comment"></div>
+</div>
+<footer class="mdui-container footer ">
     <div class="head_card-offset"></div>
 
 
@@ -112,4 +129,29 @@
 
 </body>
 <script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+    $('.comment').bind('DOMNodeInserted',()=>{
+        $('.comment').unbind()
+
+        $('.vbtn').addClass(' mdui-btn mdui-color-theme-accent mdui-ripple')
+    })
+
+    let valine = new Valine({
+        el: '.comment',
+        
+        app_id: 'DlOXDTkwKMuu8pXqceV6lzT5-gzGzoHsz',
+        
+        
+        app_key: 'QzXffjomF1kph0pH4uKuC2iJ',
+        
+        
+        placeholder: '终于把Valine评论系统完美插入博客了~不来发个评论吗？',
+        
+        path: window.location.pathname,
+        pageSize: 30,
+        avatar:'mm',
+        notify:true
+    })
+</script>
 </html>
