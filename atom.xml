@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aczmux.github.io</id>
     <title>妮阿米娅的博客</title>
-    <updated>2020-05-27T12:53:07.887Z</updated>
+    <updated>2020-05-31T09:53:14.162Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aczmux.github.io"/>
     <link rel="self" href="https://aczmux.github.io/atom.xml"/>
@@ -10,15 +10,6 @@
     <logo>https://aczmux.github.io/images/avatar.png</logo>
     <icon>https://aczmux.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 妮阿米娅的博客</rights>
-    <entry>
-        <title type="html"><![CDATA[test]]></title>
-        <id>https://aczmux.github.io/YUOO0D1ZN/</id>
-        <link href="https://aczmux.github.io/YUOO0D1ZN/">
-        </link>
-        <updated>2020-05-27T12:41:19.000Z</updated>
-        <content type="html"><![CDATA[<p>test</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[一堆Windows10快捷键]]></title>
         <id>https://aczmux.github.io/wKo3qIw-L/</id>
@@ -509,7 +500,9 @@ F3 将光标移动到搜索框</p>
         <content type="html"><![CDATA[<p><img src="https://aczmux.github.io/post-images/1590218791836.png" alt="" loading="lazy"><br>
 <img src="https://aczmux.github.io/post-images/1590218796393.png" alt="" loading="lazy"><br>
 <img src="https://aczmux.github.io/post-images/1590218809032.png" alt="" loading="lazy"><br>
-亲测最新版有效。有时激活失效需重新激活。管理员身份运行，随便输入点内容（不是邮箱也可以），点击Register application!按钮，结束了。<br>
+亲测最新版有效。有时激活失效需重新激活。↓示例<br>
+<img src="https://aczmux.github.io/post-images/1590918782411.png" alt="" loading="lazy"><br>
+管理员身份运行，随便输入点内容（不是邮箱也可以），点击Register application!按钮，结束了。<br>
 <a href="https://habo.qq.com/file/showdetail?pk=ADcGZV1qB2AIPFs6U2U%3D">腾讯哈珀分析系统</a><br>
 <a href="https://niamia.lanzous.com/icxc1sb">下载 - 蓝奏云</a><br>
 <a href="http://www.lanzou.com/account.php?action=register&amp;WShWPQM1DD0POFI3DmxRO1U3UGI=">蓝奏云 - 外链不限速免客户端下载，永不过期，不限容量，免费用户单个文件限制100M</a></p>
