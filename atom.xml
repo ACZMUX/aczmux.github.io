@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aczmux.github.io</id>
     <title>妮阿米娅的博客</title>
-    <updated>2020-05-31T09:53:14.162Z</updated>
+    <updated>2020-05-31T10:24:35.870Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aczmux.github.io"/>
     <link rel="self" href="https://aczmux.github.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://aczmux.github.io/images/avatar.png</logo>
     <icon>https://aczmux.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 妮阿米娅的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[AOMEI Partition Assistant 8.6.0 单文件便携版]]></title>
+        <id>https://aczmux.github.io/zbukKKADU/</id>
+        <link href="https://aczmux.github.io/zbukKKADU/">
+        </link>
+        <updated>2020-05-31T10:11:34.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://aczmux.github.io/post-images/1590920002516.png" alt="" loading="lazy"><br>
+迁移系统到固态硬盘这个功能我i了<br>
+不需要“使用码”<br>
+来自<a href="https://www.ghpym.com/">果核剥壳</a><br>
+<a href="https://habo.qq.com/file/showdetail?pk=ADcGZV1lB2IIOFs8U2c%3D">腾讯哈珀分析系统</a><br>
+<a href="https://niamia.lanzous.com/id6u83a">下载 - 蓝奏云</a><br>
+<a href="http://www.lanzou.com/account.php?action=register&amp;WShWPQM1DD0POFI3DmxRO1U3UGI=">蓝奏云 - 外链不限速免客户端下载，永不过期，不限容量，免费用户单个文件限制100M</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一堆Windows10快捷键]]></title>
         <id>https://aczmux.github.io/wKo3qIw-L/</id>
