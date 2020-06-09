@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aczmux.github.io</id>
     <title>妮阿米娅的博客</title>
-    <updated>2020-06-09T01:01:57.027Z</updated>
+    <updated>2020-06-09T12:32:52.321Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aczmux.github.io"/>
     <link rel="self" href="https://aczmux.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://aczmux.github.io/images/avatar.png</logo>
     <icon>https://aczmux.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 妮阿米娅的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[课后网学生使用全攻略]]></title>
+        <id>https://aczmux.github.io/13hkskIse/</id>
+        <link href="https://aczmux.github.io/13hkskIse/">
+        </link>
+        <updated>2020-06-09T12:31:42.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://m.kehou.com/redirect.htm?aid=146&amp;code=download">点击这里</a>下载课后网手机版<br>
+<a href="https://www.yeshen.com/cn/download/fullPackage">点击这里</a>下载夜神模拟器<br>
+把课后网手机版装进夜神模拟器中√</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AOMEI Partition Assistant 8.6.0 单文件便携版]]></title>
         <id>https://aczmux.github.io/zbukKKADU/</id>
