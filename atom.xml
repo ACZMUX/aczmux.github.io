@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aczmux.github.io</id>
     <title>妮阿米娅的博客</title>
-    <updated>2020-06-09T12:44:19.763Z</updated>
+    <updated>2020-06-10T12:28:55.221Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aczmux.github.io"/>
     <link rel="self" href="https://aczmux.github.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://aczmux.github.io/images/avatar.png</logo>
     <icon>https://aczmux.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 妮阿米娅的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[隐藏文章索引]]></title>
+        <id>https://aczmux.github.io/Hidden_articles_index/</id>
+        <link href="https://aczmux.github.io/Hidden_articles_index/">
+        </link>
+        <updated>2020-06-10T12:17:21.000Z</updated>
+        <content type="html"><![CDATA[<p>为避免主页显得杂乱，部分意义不大的文章已被隐藏。在此处你可以索引至这些文章</p>
+<h3 id="安卓应用"><a href="#%E5%AE%89%E5%8D%93%E5%BA%94%E7%94%A8">#安卓应用</a></h3>
+<p><a href="/uswKYqGXv">百度网盘联运版</a></p>
+<h3 id="少点广告"><a href="#%E5%B0%91%E7%82%B9%E5%B9%BF%E5%91%8A">#少点广告</a></h3>
+<p><a href="/uswKYqGXv">百度网盘联运版</a></p>
+<h3 id="软件"><a href="#%E8%BD%AF%E4%BB%B6">#软件</a></h3>
+<p><a href="/uswKYqGXv">百度网盘联运版</a><br>
+<a href="/7SSpYbpCh">Bandicam 4.x KeyGen</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[课后网学生使用全攻略]]></title>
         <id>https://aczmux.github.io/RbiHPK5lf/</id>
@@ -528,23 +544,6 @@ F3 将光标移动到搜索框</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Bandicam v4.x KeyGen]]></title>
-        <id>https://aczmux.github.io/7SSpYbpCh/</id>
-        <link href="https://aczmux.github.io/7SSpYbpCh/">
-        </link>
-        <updated>2020-05-23T07:26:04.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://aczmux.github.io/post-images/1590218791836.png" alt="" loading="lazy"><br>
-<img src="https://aczmux.github.io/post-images/1590218796393.png" alt="" loading="lazy"><br>
-<img src="https://aczmux.github.io/post-images/1590218809032.png" alt="" loading="lazy"><br>
-亲测最新版有效。有时激活失效需重新激活。↓示例<br>
-<img src="https://aczmux.github.io/post-images/1590918782411.png" alt="" loading="lazy"><br>
-管理员身份运行，随便输入点内容（不是邮箱也可以），点击Register application!按钮，结束了。<br>
-<a href="https://habo.qq.com/file/showdetail?pk=ADcGZV1qB2AIPFs6U2U%3D">腾讯哈珀分析系统</a><br>
-<a href="https://niamia.lanzous.com/icxc1sb">下载 - 蓝奏云</a><br>
-<a href="http://www.lanzou.com/account.php?action=register&amp;WShWPQM1DD0POFI3DmxRO1U3UGI=">蓝奏云 - 外链不限速免客户端下载，永不过期，不限容量，免费用户单个文件限制100M</a></p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[HoneyView 5.32 - 我在用的图片浏览器]]></title>
         <id>https://aczmux.github.io/shwmOM__w/</id>
         <link href="https://aczmux.github.io/shwmOM__w/">
@@ -556,6 +555,39 @@ F3 将光标移动到搜索框</p>
 支持RAW格式，支持PSD（Photoshop专属）格式，支持一大票主流格式，无广告捆绑，有32位便携版，你还需要什么？<br>
 右键菜单的“用 蜂蜜浏览器 转换”省得我打开画图或者其它东西去另存为，右键菜单的“用 蜂蜜浏览器 浏览”提供了预览图让我在列表显示的文件中大致知道这张图片是什么东西，比BandiZip的预览更实用。<br>
 赶紧把你的流氓广告捆绑看图软件（美图看看/2345看图王/光影看看）和日渐臃肿的ACDSee卸载了吧！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[骡 | Luo - 主题测试用文章]]></title>
+        <id>https://aczmux.github.io/test/</id>
+        <link href="https://aczmux.github.io/test/">
+        </link>
+        <updated>1969-12-31T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h5 id="置底文章-不醒目-看不见我">[置底文章] 不醒目 看不见我</h5>
+]]></summary>
+        <content type="html"><![CDATA[<h5 id="置底文章-不醒目-看不见我">[置底文章] 不醒目 看不见我</h5>
+<!-- more -->
+<p>Markdown 语法测试(其实我不太懂Markdown) 这是一行普通文字😀</p>
+<h1 id="一级标题">一级标题😃</h1>
+<p><em>斜体</em>😄</p>
+<h2 id="二级标题">二级标题</h2>
+<p><strong>加粗</strong></p>
+<h3 id="三级标题">三级标题</h3>
+<p><em><strong>斜体加粗</strong></em></p>
+<h4 id="四级标题">四级标题</h4>
+<p><code>#include&lt;bits/stdc++.h&gt; //行内Code</code></p>
+<h5 id="五级标题">五级标题</h5>
+<ul>
+<li>列表1</li>
+<li>列表2</li>
+</ul>
+<h6 id="六级标题">六级标题</h6>
+<p>LaTeX公式 不会用(<span class='katex-error' title='ParseError: KaTeX parse error: Expected &#039;EOF&#039;, got &#039;#&#039; at position 3: )
+#̲###### 七级标题（并没有…'>)
+####### 七级标题（并没有）
+LaTeX公式 懒得学(</span>$)</p>
+<p><s>删除线</s></p>
+<p><a href="https://www.aliyun.com/minisite/goods?userCode=hg0bwigo">阿里云2000元红包助你上云</a></p>
 ]]></content>
     </entry>
 </feed>
