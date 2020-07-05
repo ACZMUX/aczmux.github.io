@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aczmux.github.io</id>
     <title>妮阿米娅的博客</title>
-    <updated>2020-07-05T08:51:28.956Z</updated>
+    <updated>2020-07-05T09:01:08.569Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aczmux.github.io"/>
     <link rel="self" href="https://aczmux.github.io/atom.xml"/>
@@ -10,6 +10,89 @@
     <logo>https://aczmux.github.io/images/avatar.png</logo>
     <icon>https://aczmux.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 妮阿米娅的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[1084：幂的末尾 摸数据初尝试]]></title>
+        <id>https://aczmux.github.io/38fDs32Vr/</id>
+        <link href="https://aczmux.github.io/38fDs32Vr/">
+        </link>
+        <updated>2020-07-05T08:48:08.000Z</updated>
+        <content type="html"><![CDATA[<p>做这道题我第一次交上去的代码：</p>
+<pre><code>#include&lt;bits/stdc++.h&gt;
+using namespace std;
+int main(){
+	int a,b,c;
+	cin&gt;&gt;a&gt;&gt;b;
+	c=a;
+	for(int i=1;i&lt;b;i++){
+		c=c*a;
+		//cout&lt;&lt;&quot;[Debug] c=&quot;&lt;&lt;c&lt;&lt;endl;
+		c=c%1000;
+		//cout&lt;&lt;&quot;[Debug] after move c=&quot;&lt;&lt;c&lt;&lt;endl;
+	} 
+	cout&lt;&lt;c&lt;&lt;endl;
+	return 0;
+}
+</code></pre>
+<p><a href="http://ybt.ssoier.cn:8088/status.php?showname=ACZMUX&amp;showpid=1084&amp;showres=&amp;showlang=">运行结果</a><br>
+<a href="http://ybt.ssoier.cn:8088/show_source.php?runid=7473621">源代码</a><br>
+<img src="https://aczmux.github.io/post-images/1593938912217.png" alt="" loading="lazy"><br>
+最后一个测试点没过，想起题面【输出】部分的要求：“若幂本身不足三位，在前面补零。”<br>
+那么怎么判断它的位数呢？字符串相关的内容用起来比较麻烦也不想回去翻书了，于是就用比大小的方法判断，并确定输出方式。</p>
+<pre><code>#include&lt;bits/stdc++.h&gt;
+using namespace std;
+int main(){
+	int a,b,c;
+	cin&gt;&gt;a&gt;&gt;b;
+	c=a;
+	for(int i=1;i&lt;b;i++){
+		c=c*a;
+		//cout&lt;&lt;&quot;[Debug] c=&quot;&lt;&lt;c&lt;&lt;endl;
+		c=c%1000;
+		//cout&lt;&lt;&quot;[Debug] after move c=&quot;&lt;&lt;c&lt;&lt;endl;
+	} 
+	if(c&lt;100){
+		if(c&lt;10){
+			cout&lt;&lt;&quot;00&quot;&lt;&lt;c&lt;&lt;endl; 
+			return 0;
+		}
+		cout&lt;&lt;&quot;0&quot;&lt;&lt;c&lt;&lt;endl;
+	}
+	cout&lt;&lt;c&lt;&lt;endl;
+	return 0;
+}
+</code></pre>
+<p><a href="http://ybt.ssoier.cn:8088/show_source.php?runid=7473671">源代码</a><br>
+AC了，耶✌！<br>
+那我们去掉里层if来确定一下测试点10的数据范围叭？</p>
+<pre><code>#include&lt;bits/stdc++.h&gt;
+using namespace std;
+int main(){
+	int a,b,c;
+	cin&gt;&gt;a&gt;&gt;b;
+	c=a;
+	for(int i=1;i&lt;b;i++){
+		c=c*a;
+		//cout&lt;&lt;&quot;[Debug] c=&quot;&lt;&lt;c&lt;&lt;endl;
+		c=c%1000;
+		//cout&lt;&lt;&quot;[Debug] after move c=&quot;&lt;&lt;c&lt;&lt;endl;
+	} 
+	if(c&lt;100){
+//		if(c&lt;10){
+//			cout&lt;&lt;&quot;00&quot;&lt;&lt;c&lt;&lt;endl; 
+//			return 0;
+//		}
+		cout&lt;&lt;&quot;0&quot;&lt;&lt;c&lt;&lt;endl;
+	}
+	cout&lt;&lt;c&lt;&lt;endl;
+	return 0;
+}
+</code></pre>
+<p>然后测试点10又没过，所以确定测试点10的a^b数据范围是 0&lt;a^b&lt;10。<br>
+进一步测试就懒得做了。<br>
+这就算套取数据🐎，i了i了<br>
+改天学学Latex公式怎么用</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[隐藏文章索引]]></title>
         <id>https://aczmux.github.io/Hidden_articles_index/</id>

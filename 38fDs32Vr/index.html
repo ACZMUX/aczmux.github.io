@@ -58,19 +58,86 @@
         <main id="main" class="site-main" role="main">
             <article id="post-1270" class="post-1270 post type-post status-publish format-standard hentry category-90 category-129 tag-149">
                 <header class="entry-header">
-                    <h1 class="entry-title">隐藏文章索引</h1>
-                    <p class="entry-census">发布于 2020-06-10</p>
+                    <h1 class="entry-title">1084：幂的末尾 摸数据初尝试</h1>
+                    <p class="entry-census">发布于 2020-07-05</p>
                     <hr>
                 </header>
                 <div class="neko">
-                    <p>为避免主页显得杂乱，部分意义不大的文章已被隐藏。在此处你可以索引至这些文章</p>
-<h3 id="安卓应用"><a href="#%E5%AE%89%E5%8D%93%E5%BA%94%E7%94%A8">#安卓应用</a></h3>
-<p><a href="/uswKYqGXv">百度网盘联运版</a></p>
-<h3 id="少点广告"><a href="#%E5%B0%91%E7%82%B9%E5%B9%BF%E5%91%8A">#少点广告</a></h3>
-<p><a href="/uswKYqGXv">百度网盘联运版</a></p>
-<h3 id="软件"><a href="#%E8%BD%AF%E4%BB%B6">#软件</a></h3>
-<p><a href="/uswKYqGXv">百度网盘联运版</a><br>
-<a href="/7SSpYbpCh">Bandicam 4.x KeyGen</a></p>
+                    <p>做这道题我第一次交上去的代码：</p>
+<pre><code>#include&lt;bits/stdc++.h&gt;
+using namespace std;
+int main(){
+	int a,b,c;
+	cin&gt;&gt;a&gt;&gt;b;
+	c=a;
+	for(int i=1;i&lt;b;i++){
+		c=c*a;
+		//cout&lt;&lt;&quot;[Debug] c=&quot;&lt;&lt;c&lt;&lt;endl;
+		c=c%1000;
+		//cout&lt;&lt;&quot;[Debug] after move c=&quot;&lt;&lt;c&lt;&lt;endl;
+	} 
+	cout&lt;&lt;c&lt;&lt;endl;
+	return 0;
+}
+</code></pre>
+<p><a href="http://ybt.ssoier.cn:8088/status.php?showname=ACZMUX&amp;showpid=1084&amp;showres=&amp;showlang=">运行结果</a><br>
+<a href="http://ybt.ssoier.cn:8088/show_source.php?runid=7473621">源代码</a><br>
+<img src="https://aczmux.github.io/post-images/1593938912217.png" alt="" loading="lazy"><br>
+最后一个测试点没过，想起题面【输出】部分的要求：“若幂本身不足三位，在前面补零。”<br>
+那么怎么判断它的位数呢？字符串相关的内容用起来比较麻烦也不想回去翻书了，于是就用比大小的方法判断，并确定输出方式。</p>
+<pre><code>#include&lt;bits/stdc++.h&gt;
+using namespace std;
+int main(){
+	int a,b,c;
+	cin&gt;&gt;a&gt;&gt;b;
+	c=a;
+	for(int i=1;i&lt;b;i++){
+		c=c*a;
+		//cout&lt;&lt;&quot;[Debug] c=&quot;&lt;&lt;c&lt;&lt;endl;
+		c=c%1000;
+		//cout&lt;&lt;&quot;[Debug] after move c=&quot;&lt;&lt;c&lt;&lt;endl;
+	} 
+	if(c&lt;100){
+		if(c&lt;10){
+			cout&lt;&lt;&quot;00&quot;&lt;&lt;c&lt;&lt;endl; 
+			return 0;
+		}
+		cout&lt;&lt;&quot;0&quot;&lt;&lt;c&lt;&lt;endl;
+	}
+	cout&lt;&lt;c&lt;&lt;endl;
+	return 0;
+}
+</code></pre>
+<p><a href="http://ybt.ssoier.cn:8088/show_source.php?runid=7473671">源代码</a><br>
+AC了，耶✌！<br>
+那我们去掉里层if来确定一下测试点10的数据范围叭？</p>
+<pre><code>#include&lt;bits/stdc++.h&gt;
+using namespace std;
+int main(){
+	int a,b,c;
+	cin&gt;&gt;a&gt;&gt;b;
+	c=a;
+	for(int i=1;i&lt;b;i++){
+		c=c*a;
+		//cout&lt;&lt;&quot;[Debug] c=&quot;&lt;&lt;c&lt;&lt;endl;
+		c=c%1000;
+		//cout&lt;&lt;&quot;[Debug] after move c=&quot;&lt;&lt;c&lt;&lt;endl;
+	} 
+	if(c&lt;100){
+//		if(c&lt;10){
+//			cout&lt;&lt;&quot;00&quot;&lt;&lt;c&lt;&lt;endl; 
+//			return 0;
+//		}
+		cout&lt;&lt;&quot;0&quot;&lt;&lt;c&lt;&lt;endl;
+	}
+	cout&lt;&lt;c&lt;&lt;endl;
+	return 0;
+}
+</code></pre>
+<p>然后测试点10又没过，所以确定测试点10的a^b数据范围是 0&lt;a^b&lt;10。<br>
+进一步测试就懒得做了。<br>
+这就算套取数据🐎，i了i了<br>
+改天学学Latex公式怎么用</p>
 
                 </div>
             </article>
@@ -80,20 +147,14 @@
         <div class="mdui-container">
             <div class="mdui-row">
                 
-                <a href="https://aczmux.github.io/38fDs32Vr/" class="mdui-ripple mdui-color-theme mdui-col-xs-2 mdui-col-sm-6 doc-footer-nav-left">
-                    <div class="doc-footer-nav-text">
-                        <i class="mdui-icon material-icons">arrow_back</i>
-                        <span class="doc-footer-nav-direction mdui-hidden-xs-down">上一篇文章</span>
-                        <div class="doc-footer-nav-chapter mdui-hidden-xs-down">1084：幂的末尾 摸数据初尝试</div>
-                    </div>
-                </a>
+                <div class="mdui-col-xs-2 mdui-col-sm-6 doc-footer-nav-left"></div>
                 
                 
-                <a href="https://aczmux.github.io/RbiHPK5lf/" class="mdui-ripple mdui-color-theme mdui-col-xs-10 mdui-col-sm-6 doc-footer-nav-right">
+                <a href="https://aczmux.github.io/Hidden_articles_index/" class="mdui-ripple mdui-color-theme mdui-col-xs-10 mdui-col-sm-6 doc-footer-nav-right">
                     <div class="doc-footer-nav-text">
                         <i class="mdui-icon material-icons">arrow_forward</i>
                         <span class="doc-footer-nav-direction">下一篇文章</span>
-                        <div class="doc-footer-nav-chapter">课后网学生使用全攻略</div>
+                        <div class="doc-footer-nav-chapter">隐藏文章索引</div>
                     </div>
                 </a>
                 
