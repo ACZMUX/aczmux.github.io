@@ -2,14 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aczmux.github.io</id>
     <title>妮阿米娅的博客</title>
-    <updated>2020-07-18T10:44:24.543Z</updated>
+    <updated>2020-07-18T13:46:22.515Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aczmux.github.io"/>
     <link rel="self" href="https://aczmux.github.io/atom.xml"/>
-    <subtitle>本站所有非隐藏文章均已增加伪随机封面图233</subtitle>
+    <subtitle>这个站点现在没有隐藏文章了，不信你去仓库看~</subtitle>
     <logo>https://aczmux.github.io/images/avatar.png</logo>
     <icon>https://aczmux.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 妮阿米娅的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[1000：入门测试题目 【信息学奥赛一本通（C++版）在线评测系统】]]></title>
+        <id>https://aczmux.github.io/rUNxAkN89/</id>
+        <link href="https://aczmux.github.io/rUNxAkN89/">
+        </link>
+        <updated>2020-07-18T13:44:45.000Z</updated>
+        <content type="html"><![CDATA[<p>「原题」</p>
+<blockquote>
+<p>1000：入门测试题目<br>
+时间限制: 1000 ms         内存限制: 32768 KB<br>
+提交数: 0     通过数: 0<br>
+【题目描述】<br>
+求两个整数的和。<br>
+【输入】<br>
+一行，两个用空格隔开的整数。<br>
+【输出】<br>
+两个整数的和。<br>
+【输入样例】<br>
+1 2<br>
+【输出样例】<br>
+3</p>
+<p>【来源】</p>
+<p><a href="http://ybt.ssoier.cn:8088/">信息学奥赛一本通（C++版）在线评测系统</a></p>
+</blockquote>
+<p>「分析」<br>
+新手不用理会「时间限制」和「内存限制」，大多数情况下到很后面才会出现TLE（Time Limit Exceed，超时）和MLE（Memory Limit Exceed，内存溢出，超内存），关于这些OJ（Online Judge，在线判题）术语，可以在<a href="https://blog.csdn.net/JNingWei/article/details/78425824">该页</a>中了解。<br>
+至于这个问题，就是一个简单的A+B问题。</p>
+<p>「源码」</p>
+<pre><code class="language-cpp">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+	int a,b;
+	scanf(&quot;%d%d&quot;,&amp;a,&amp;b);
+	cout &lt;&lt; a+b &lt;&lt; endl;
+}
+</code></pre>
+<p>在此处进行复制等操作时，您应了解CC 4.0 BY-SA协议。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[C++中各种变量占用的内存空间大小以及在printf&scanf中的占位符]]></title>
         <id>https://aczmux.github.io/cpp_1753uB-52/</id>
@@ -319,21 +358,6 @@ int main(){
 <a href="https://m.kehou.com/redirect.htm?aid=146&amp;code=download">点击这里</a>下载课后网手机版<br>
 <a href="https://www.yeshen.com/cn/download/fullPackage">点击这里</a>下载夜神模拟器<br>
 把课后网手机版装进夜神模拟器中√</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AOMEI Partition Assistant 8.6.0 单文件便携版]]></title>
-        <id>https://aczmux.github.io/zbukKKADU/</id>
-        <link href="https://aczmux.github.io/zbukKKADU/">
-        </link>
-        <updated>2020-05-31T10:11:34.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://aczmux.github.io/post-images/1590920002516.png" alt="" loading="lazy"><br>
-迁移系统到固态硬盘这个功能我i了<br>
-不需要“使用码”<br>
-来自<a href="https://www.ghpym.com/">果核剥壳</a><br>
-<a href="https://habo.qq.com/file/showdetail?pk=ADcGZV1lB2IIOFs8U2c%3D">腾讯哈珀分析系统</a><br>
-<a href="https://niamia.lanzous.com/id6u83a">下载 - 蓝奏云</a><br>
-<a href="http://www.lanzou.com/account.php?action=register&amp;WShWPQM1DD0POFI3DmxRO1U3UGI=">蓝奏云 - 外链不限速免客户端下载，永不过期，不限容量，免费用户单个文件限制100M</a></p>
 ]]></content>
     </entry>
 </feed>
