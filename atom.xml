@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aczmux.github.io</id>
     <title>妮阿米娅的博客</title>
-    <updated>2020-07-06T08:24:58.312Z</updated>
+    <updated>2020-07-18T03:35:44.702Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aczmux.github.io"/>
     <link rel="self" href="https://aczmux.github.io/atom.xml"/>
@@ -11,185 +11,58 @@
     <icon>https://aczmux.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 妮阿米娅的博客</rights>
     <entry>
-        <title type="html"><![CDATA[1087：级数求和 //运行超时 TLE 初体验]]></title>
-        <id>https://aczmux.github.io/6CC0XGm4o/</id>
-        <link href="https://aczmux.github.io/6CC0XGm4o/">
+        <title type="html"><![CDATA[C++中各种变量占用的内存空间大小以及在printf&scanf中的占位符]]></title>
+        <id>https://aczmux.github.io/cpp_1753uB-52/</id>
+        <link href="https://aczmux.github.io/cpp_1753uB-52/">
         </link>
-        <updated>2020-07-06T08:11:02.000Z</updated>
-        <content type="html"><![CDATA[<p><a href="http://ybt.ssoier.cn:8088/status.php?showname=ACZMUX&amp;showpid=1087&amp;showres=&amp;showlang=1">提交记录</a><br>
-前两次都Time Limit Exceeded了，源码如下<br>
-<a href="http://ybt.ssoier.cn:8088/show_source.php?runid=7478854">RUNID#7478854</a></p>
+        <updated>2020-07-18T03:28:58.000Z</updated>
+        <content type="html"><![CDATA[<p>int、short、long、long long、bool、char、float、double型变量各自占用的内存空间大小以及在printf&amp;scanf中的占位符，写了个小东西跑了一下就清楚了。</p>
 <pre><code>#include&lt;bits/stdc++.h&gt;
 using namespace std;
-int main(){
-	int k,n=1,s;
-	cin&gt;&gt;k;
-	while(s&lt;=k){
-		s=s+1/n;
-		n++;
-	}
-	cout&lt;&lt;n&lt;&lt;endl;
+int main() {
+	int a;//4bits %d
+	short b;//2bits %h
+	long c;//4bits %ld
+	long long d;//8bits %lld
+	bool e;//1bit %d可输出0和1，true false输出估计要自己写个分支...
+	char f;//1bit %c
+	float g;//4bits %f
+	double h;//8bits %lf (also %f)
+	printf(&quot;Size of int:%d \n&quot;,sizeof(a));
+	printf(&quot;Size of short:%d \n&quot;,sizeof(b));
+	printf(&quot;Size of long:%d \n&quot;,sizeof(c));
+	printf(&quot;Size of long long:%d \n&quot;,sizeof(d));
+	printf(&quot;Size of bool:%d \n&quot;,sizeof(e));
+	printf(&quot;Size of char:%d \n&quot;,sizeof(f));
+	printf(&quot;Size of float:%d \n&quot;,sizeof(g));
+	printf(&quot;Size of double:%d \n&quot;,sizeof(h));
 	return 0;
 }
 </code></pre>
-<p>然后我想起来cin cout效率低，虽然可能没什么影响，换了scanf printf又丢上去一次，因为我以为超过了这么1-4ms随便优化一下就好了，最后才想到是时间到了OJ测评机会自动中止程序，所以会出现没到1000ms就运行超时的测试点<br>
-<a href="http://ybt.ssoier.cn:8088/show_source.php?runid=7478882">RUNID#7478882</a></p>
-<pre><code>#include&lt;bits/stdc++.h&gt;
-using namespace std;
-int main(){
-	int k,n=1,s;
-	scanf(&quot;%d&quot;,&amp;k);
-	while(s&lt;=k){
-		s=s+1/n;
-		n++;
-	}
-	printf(&quot;%d&quot;,n);
-	return 0;
-}
+<p>运行结果（本地Dev-C++中以TDM-GCC 4.9.2 64-bit Release编译运行）：</p>
+<pre><code>Size of int:4
+Size of short:2
+Size of long:4
+Size of long long:8
+Size of bool:1
+Size of char:1
+Size of float:4
+Size of double:8
+
+--------------------------------
+Process exited after 0.02813 seconds with return value 0
+请按任意键继续. . .
 </code></pre>
-<p>然后你猜咋地？我瞎搞了一通发现用s=0初始化输入1输出3比参考输出多了1，然后我就提交了这份代码：<br>
-<a href="http://ybt.ssoier.cn:8088/show_source.php?runid=7478903">RUNID#7478903</a></p>
-<pre><code>#include&lt;bits/stdc++.h&gt;
-using namespace std;
-int main(){
-	int k,n=1;
-	double s=0;
-	scanf(&quot;%d&quot;,&amp;k);
-	if(k&gt;15 &amp;&amp; k&lt;0){
-		return 1;
-	}
-	while(s&lt;=k){
-		s=s+1.0/n;
-		n++;
-	}
-	printf(&quot;%d&quot;,n-1);
-	return 0;
-}
-</code></pre>
-<p>没错，就是输出-1，就Accepted了！<br>
-然后我强行想把它写的直白有理一点<br>
-<a href="http://ybt.ssoier.cn:8088/show_source.php?runid=7478968">RUNID#7478968</a></p>
-<pre><code>#include&lt;bits/stdc++.h&gt;
-using namespace std;
-int main(){
-	int k,n=1;
-	double s=1;
-	scanf(&quot;%d&quot;,&amp;k);
-	if(k&gt;15 &amp;&amp; k&lt;0){
-		return 1;
-	}
-	while(s&lt;=k){
-		s+=1.0/n;		//使用1会造成精度丢失 
-		n++;
-	}
-	printf(&quot;%d&quot;,n);
-	return 0;
-}
-</code></pre>
-<p>就过了一个测试点那！<br>
-行了，最后一份，再见<br>
-<a href="http://ybt.ssoier.cn:8088/show_source.php?runid=7478973">RUNID#7478973</a></p>
-<pre><code>#include&lt;bits/stdc++.h&gt;
-using namespace std;
-int main(){
-	int k,n=1;
-	double s=0;
-	scanf(&quot;%d&quot;,&amp;k);
-	if(k&gt;15 &amp;&amp; k&lt;0){
-		return 1;
-	}
-	while(s&lt;=k){
-		s+=1.0/n;		//Ê¹ÓÃ1»áÔì³É¾«¶È¶ªÊ§ 
-		n++;
-	}
-	printf(&quot;%d&quot;,n-1);
-	return 0;
-}
-</code></pre>
-<p>Dev C++里粘贴刀网页对话框里中文乱码了awa</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[1084：幂的末尾 摸数据初尝试]]></title>
-        <id>https://aczmux.github.io/38fDs32Vr/</id>
-        <link href="https://aczmux.github.io/38fDs32Vr/">
+        <title type="html"><![CDATA[秒赞平台推荐 || 少花点时间看空间，跟同学混个脸熟]]></title>
+        <id>https://aczmux.github.io/mzw/</id>
+        <link href="https://aczmux.github.io/mzw/">
         </link>
-        <updated>2020-07-05T08:48:08.000Z</updated>
-        <content type="html"><![CDATA[<p>做这道题我第一次交上去的代码：</p>
-<pre><code>#include&lt;bits/stdc++.h&gt;
-using namespace std;
-int main(){
-	int a,b,c;
-	cin&gt;&gt;a&gt;&gt;b;
-	c=a;
-	for(int i=1;i&lt;b;i++){
-		c=c*a;
-		//cout&lt;&lt;&quot;[Debug] c=&quot;&lt;&lt;c&lt;&lt;endl;
-		c=c%1000;
-		//cout&lt;&lt;&quot;[Debug] after move c=&quot;&lt;&lt;c&lt;&lt;endl;
-	} 
-	cout&lt;&lt;c&lt;&lt;endl;
-	return 0;
-}
-</code></pre>
-<p><a href="http://ybt.ssoier.cn:8088/status.php?showname=ACZMUX&amp;showpid=1084&amp;showres=&amp;showlang=">本文中的3次运行结果（不排除之后继续尝试追加，最后三个即是）</a><br>
-<a href="http://ybt.ssoier.cn:8088/show_source.php?runid=7473621">源代码</a><br>
-<img src="https://aczmux.github.io/post-images/1593938912217.png" alt="" loading="lazy"><br>
-最后一个测试点没过，想起题面【输出】部分的要求：“若幂本身不足三位，在前面补零。”<br>
-那么怎么判断它的位数呢？字符串相关的内容用起来比较麻烦也不想回去翻书了，于是就用比大小的方法判断，并确定输出方式。</p>
-<pre><code>#include&lt;bits/stdc++.h&gt;
-using namespace std;
-int main(){
-	int a,b,c;
-	cin&gt;&gt;a&gt;&gt;b;
-	c=a;
-	for(int i=1;i&lt;b;i++){
-		c=c*a;
-		//cout&lt;&lt;&quot;[Debug] c=&quot;&lt;&lt;c&lt;&lt;endl;
-		c=c%1000;
-		//cout&lt;&lt;&quot;[Debug] after move c=&quot;&lt;&lt;c&lt;&lt;endl;
-	} 
-	if(c&lt;100){
-		if(c&lt;10){
-			cout&lt;&lt;&quot;00&quot;&lt;&lt;c&lt;&lt;endl; 
-			return 0;
-		}
-		cout&lt;&lt;&quot;0&quot;&lt;&lt;c&lt;&lt;endl;
-	}
-	cout&lt;&lt;c&lt;&lt;endl;
-	return 0;
-}
-</code></pre>
-<p><a href="http://ybt.ssoier.cn:8088/show_source.php?runid=7473671">源代码</a><br>
-AC了，耶✌！<br>
-那我们去掉里层if来确定一下测试点10的数据范围叭？</p>
-<pre><code>#include&lt;bits/stdc++.h&gt;
-using namespace std;
-int main(){
-	int a,b,c;
-	cin&gt;&gt;a&gt;&gt;b;
-	c=a;
-	for(int i=1;i&lt;b;i++){
-		c=c*a;
-		//cout&lt;&lt;&quot;[Debug] c=&quot;&lt;&lt;c&lt;&lt;endl;
-		c=c%1000;
-		//cout&lt;&lt;&quot;[Debug] after move c=&quot;&lt;&lt;c&lt;&lt;endl;
-	} 
-	if(c&lt;100){
-//		if(c&lt;10){
-//			cout&lt;&lt;&quot;00&quot;&lt;&lt;c&lt;&lt;endl; 
-//			return 0;
-//		}
-		cout&lt;&lt;&quot;0&quot;&lt;&lt;c&lt;&lt;endl;
-	}
-	cout&lt;&lt;c&lt;&lt;endl;
-	return 0;
-}
-</code></pre>
-<p>然后测试点10又没过，所以确定测试点10的a^b数据范围是 0&lt;a^b&lt;10。<br>
-进一步测试就懒得做了。<br>
-这就算套取数据🐎，i了i了<br>
-改天学学Latex公式怎么用</p>
+        <updated>2020-07-01T12:58:11.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="http://suo.im/5WgWzw">QQ秒赞网</a><br>
+大平台 稳定 亲测签到即可长期免费使用</p>
 ]]></content>
     </entry>
     <entry>
