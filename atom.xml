@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aczmux.github.io</id>
     <title>妮阿米娅的博客</title>
-    <updated>2020-07-18T13:46:22.515Z</updated>
+    <updated>2020-07-18T14:00:02.002Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aczmux.github.io"/>
     <link rel="self" href="https://aczmux.github.io/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>https://aczmux.github.io/images/avatar.png</logo>
     <icon>https://aczmux.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 妮阿米娅的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[OJ术语 - 在OJ上做题你不能不知道]]></title>
+        <id>https://aczmux.github.io/Cp0KCucSh/</id>
+        <link href="https://aczmux.github.io/Cp0KCucSh/">
+        </link>
+        <updated>2020-07-18T13:53:45.000Z</updated>
+        <content type="html"><![CDATA[<p>OJ=Online Judge=在线判题系统<br>
+AC=Accepted=通过<br>
+WA=Wrong Answer=错误的答案<br>
+TLE=Time Limit Exceed=超过时间限制<br>
+OLE=Output Limit Exceed=超过输出限制<br>
+MLE=Memory Limit Exceed=超出内存限制<br>
+RE=Runtime Error=运行时出错<br>
+PE=Presentation Error=演示错误<br>
+CE=Compile Error=编译错误</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[1000：入门测试题目 【信息学奥赛一本通（C++版）在线评测系统】]]></title>
         <id>https://aczmux.github.io/rUNxAkN89/</id>
@@ -345,19 +362,6 @@ int main(){
         <updated>2020-06-10T12:13:45.000Z</updated>
         <content type="html"><![CDATA[<p><a href="http://app.mi.com/details?id=com.baidu.netdisk.xiaomi.appunion">小米应用商店</a><br>
 <a href="https://niamia.lanzous.com/i6z5Xdj7lpa">蓝奏云(2020/06/10更新)</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[课后网学生使用全攻略]]></title>
-        <id>https://aczmux.github.io/RbiHPK5lf/</id>
-        <link href="https://aczmux.github.io/RbiHPK5lf/">
-        </link>
-        <updated>2020-06-09T12:31:42.000Z</updated>
-        <content type="html"><![CDATA[<p>电脑端：<br>
-电脑版会监视你的屏幕，可以使用ScreenWings来挡住窥屏，但锁定界面需要利用Windows10资源管理器的特性或虚拟桌面来绕过，因此推荐使用模拟器。<br>
-<a href="https://m.kehou.com/redirect.htm?aid=146&amp;code=download">点击这里</a>下载课后网手机版<br>
-<a href="https://www.yeshen.com/cn/download/fullPackage">点击这里</a>下载夜神模拟器<br>
-把课后网手机版装进夜神模拟器中√</p>
 ]]></content>
     </entry>
 </feed>
