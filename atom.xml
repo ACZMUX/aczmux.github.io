@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aczmux.github.io</id>
     <title>妮阿米娅的博客</title>
-    <updated>2020-07-18T03:35:44.702Z</updated>
+    <updated>2020-07-18T03:56:17.543Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aczmux.github.io"/>
     <link rel="self" href="https://aczmux.github.io/atom.xml"/>
@@ -610,39 +610,6 @@ F3 将光标移动到搜索框</p>
 支持RAW格式，支持PSD（Photoshop专属）格式，支持一大票主流格式，无广告捆绑，有32位便携版，你还需要什么？<br>
 右键菜单的“用 蜂蜜浏览器 转换”省得我打开画图或者其它东西去另存为，右键菜单的“用 蜂蜜浏览器 浏览”提供了预览图让我在列表显示的文件中大致知道这张图片是什么东西，比BandiZip的预览更实用。<br>
 赶紧把你的流氓广告捆绑看图软件（美图看看/2345看图王/光影看看）和日渐臃肿的ACDSee卸载了吧！</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[骡 | Luo - 主题测试用文章]]></title>
-        <id>https://aczmux.github.io/test/</id>
-        <link href="https://aczmux.github.io/test/">
-        </link>
-        <updated>1969-12-31T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<h5 id="置底文章-不醒目-看不见我">[置底文章] 不醒目 看不见我</h5>
-]]></summary>
-        <content type="html"><![CDATA[<h5 id="置底文章-不醒目-看不见我">[置底文章] 不醒目 看不见我</h5>
-<!-- more -->
-<p>Markdown 语法测试(其实我不太懂Markdown) 这是一行普通文字😀</p>
-<h1 id="一级标题">一级标题😃</h1>
-<p><em>斜体</em>😄</p>
-<h2 id="二级标题">二级标题</h2>
-<p><strong>加粗</strong></p>
-<h3 id="三级标题">三级标题</h3>
-<p><em><strong>斜体加粗</strong></em></p>
-<h4 id="四级标题">四级标题</h4>
-<p><code>#include&lt;bits/stdc++.h&gt; //行内Code</code></p>
-<h5 id="五级标题">五级标题</h5>
-<ul>
-<li>列表1</li>
-<li>列表2</li>
-</ul>
-<h6 id="六级标题">六级标题</h6>
-<p>LaTeX公式 不会用(<span class='katex-error' title='ParseError: KaTeX parse error: Expected &#039;EOF&#039;, got &#039;#&#039; at position 3: )
-#̲###### 七级标题（并没有…'>)
-####### 七级标题（并没有）
-LaTeX公式 懒得学(</span>$)</p>
-<p><s>删除线</s></p>
-<p><a href="https://www.aliyun.com/minisite/goods?userCode=hg0bwigo">阿里云2000元红包助你上云</a></p>
 ]]></content>
     </entry>
 </feed>
